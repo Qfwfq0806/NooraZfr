@@ -6,44 +6,109 @@
 </head>
 
 <body>
+<p class="logo">NooraZfr</p>
+<div class="titleflex">
+<p class="t1">Bonsoir, ma chérie!
+<p class="t1">Pourquoi ne pas parler français ensemble ici ?</p>
+</div>
 
-<img src="imgs/enjoy.GIF" id="img1">
-<h1>Bonsoir, ma chérie!</h1>
-<h1>Pourquoi ne pas parler français ensemble ici ?</h1>
-
-<h2>J'ai conscruit ce site juste pour te souhaiter un bon anniversaire, <p>et pour te dire que je t'aime tellement.</h2>
-
-<h2>Amour, amour, unique vie en ce monde.</h2>
+<div class="wish">
+    <div class="wish2" class="w1">
+        <p class="t2">J'ai conscruit ce site juste pour te souhaiter un bon anniversaire, 
+        <p class="t2">et pour te dire que je t'aime tellement.
+        <p class="t2">Amour, amour, unique vie en ce monde.
+    </div>
+    <img src="imgs/enjoy.GIF" id="img1" class="w1">
+</div>
 
 <ul class="flexcontainer">
-    <li><a href="poems/nuages.html">Le première poème que je t'envoyer!</a></li>
-    <li><a href="poems/badiou.html">L'amour est à réinventer.</a></li>
-    <li>Nouvelles</li>
-    <li>click here to see what happens?</ul>
+    <li><img src="imgs/1.jpeg" class="choix" class="basicflex"><p>
+        <a href="poems/nuages.html" class="basicflex">Le première poème que je t'envoyer!</a></li>
+    <li><img src="imgs/5.jpeg" class="choix" class="basicflex"><p>
+        <a href="poems/badiou.html" class="basicflex">L'amour est à réinventer.</a></li>
+    <li><img src="imgs/3.jpeg" class="choix" class="basicflex">
+        <p class="basicflex">Nouvelles</li>
+    <li><img src="imgs/4.jpeg" class="choix" class="basicflex">
+        <p class="basicflex">click here to see what happens?</ul>
 </ul>
-
-
 </body>
 
 <style class="css">
+.logo{
+    font-size:30px;
+    font-family: 'Courier New', Courier, monospace; 
+    background-color:azure;
+    border: 0;
+    padding: 10px;
+    margin:0;
+}
+
+.titleflex{
+    padding: 40px;
+    border: 2px rgb(0, 204, 255) solid;
+    display:flex;
+    background-color: rgb(191, 255, 251);
+    flex-direction: column;
+}
+
+.t1{
+    flex: 1;
+    color: rgb(207, 0, 90);
+    font-size:28px;
+    border: 50px;
+    margin: 0;
+    padding: 5px;
+    background:rgb(130, 255, 251);
+}
+
+.wish {
+    color:rgb(194, 84, 0);
+    display: flex;
+    border: 2px blue solid;
+    padding-left: 50px;
+    gap:15rem; 
+}
+
+.w1 {
+    flex:1,1,auto;
+    margin: 50px;
+}
+
+.wish2{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.t2{
+    flex:1,1,auto;
+    margin: 5px;
+}
 
 .flexcontainer {
-    width :500px;
     border: 10px solid rgb(255, 255, 0); 
     display: flex;
     gap: 1rem;
     padding: 5px;
     list-style: none;
-    flex-flow: column;
 }
 
 li {
+flex: 1;
 border: 3px solid white ;
 background-color:rgb(255, 183, 0);
-padding:5px;
+padding: 20px;
 font-size: 20px;
 text-align: center;
 font-family: cursive;
+display: flex;
+flex-flow: column;
+align-items: center;
+}
+
+.basicflex{
+    flex: 1;
 }
 
 #img1 {
@@ -52,13 +117,9 @@ font-family: cursive;
     width: 300px;
 }
 
-h1 {
-    color: rgb(207, 0, 90);
-}
-
-h2 {
-    
-    color:rgb(194, 84, 0);
+.choix{
+    height: 250px;;
+    width:  250px;
 }
 
 </style>
