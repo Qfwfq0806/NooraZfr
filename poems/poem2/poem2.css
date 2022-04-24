@@ -1,0 +1,70 @@
+body {
+    background-color: #fefbe9;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* section title */
+
+.section {
+    font-size: 30px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background-color: #ff5c3f;
+    padding: 10px;
+}
+
+/* quote part  */
+
+.container2 {
+   display: flex;
+   margin: 10px 0px 10px 0px;
+   padding:20px;
+   background-color: #d8faff;
+   align-items: center;
+   justify-content: center;
+}
+
+.container2 img{
+    width: 300px;
+    height: auto;
+} 
+
+.poem {
+    padding: 30px;
+    color: #0d0d0d;
+    font-family: 'Gills sans', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.poem b {
+    text-align: right;
+    font-size: 20px;
+    color: #0d0d0d;
+    font-family: 'Gills sans', sans-serif;
+}
+
+/* explain part */
+
+.finalpart{
+    display:flex;
+    align-items: center;
+    gap: 3rem;
+    font-family:'Gill Sans', sans-serif;
+    font-size: 23px;
+    margin: 20px 0px 20px 0px;
+    background-color: rgb(206, 255, 245);
+    padding: 30px;
+    }
+
+.finalpart img{
+    width:275px;
+    height:275px;
+}
